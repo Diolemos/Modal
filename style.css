@@ -90,4 +90,17 @@ body{
     left: calc(50% - 75px);
 }
 
+@media screen and (max-width:718px) {
+    
+    .modal{
+        width: 80vw;
+        height: 50vh;
+    }
+    .modal p {
+
+        height:60%;
+        overflow: scroll;
+    }
+}
+
 
