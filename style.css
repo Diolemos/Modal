@@ -90,6 +90,8 @@ body{
     left: calc(50% - 75px);
 }
 
+
+/* makes the modal Mobile friendly  */
 @media screen and (max-width:718px) {
     
     .modal{
@@ -103,4 +105,5 @@ body{
     }
 }
 
+/* end of media query */
 
