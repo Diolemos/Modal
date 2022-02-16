@@ -5,4 +5,29 @@ body{
     background-size: cover;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.open-btn{
+    width: 120px;
+    height: 80px;
+    outline: 0;
+    border: 5px solid #240086;
+    background-color: white;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0px 0px 80px rgba(153, 151, 151, 0.8);
+    transition: all 250ms ease-in-out;
+}
+.open-btn:hover{
+    transform: scale(1.2);
+
+
+    box-shadow: 0px 0px 80px rgba(255, 255, 255, 0.8);
+}
+
